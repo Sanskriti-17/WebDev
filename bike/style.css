@@ -1,0 +1,79 @@
+.navbar{
+    font-size: large;
+    background-color: #232230;
+}
+
+.navbar-brand{
+    color: white;
+    font-weight: bold;
+}
+
+.nav-link{
+    color: aliceblue;
+}
+
+.navbar-toggler{
+    color: white;
+}
+
+.home-body{
+
+    position: absolute;
+    top: 28%;
+    z-index: 1;
+    color: aliceblue;
+    font-size: large;
+    text-align: center;
+}
+
+.home-img{
+    height: 60%;
+    width: 100%;
+    position: relative;
+    object-fit: fit;
+}
+
+.middle-container{
+    background-color: #f2f2f2;
+    padding: 5%;
+}
+
+.card{
+    margin: 5% auto;
+    height: 28rem;
+
+}
+
+.card-img-top{
+    height: 70%;
+    width: 95%;
+    padding: 7%;
+}
+
+.card-body{
+    background-color: #232230;
+    color: aliceblue;
+    padding: 5%;
+}
+
+
+
+form{
+    background-color: #232230;
+    padding: 5%;
+}
+label{
+    color: #f2f2f2;
+    margin-bottom: 5px;
+}
+.form-control{
+    background-color: #f2f2f2;
+    margin: 0.75rem;
+}
+
+.footer{
+    background-color: black;
+    color: aliceblue;
+    padding: 2%;
+    text-align: center;
+}

@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<!--Bootstrap CSS only -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+<!--Font-->
+    <script src="https://kit.fontawesome.com/7329d9149d.js" crossorigin="anonymous"></script>
+    <!--CSS-->    
+<link rel="stylesheet" href="style.css">
+    <title>Bikes</title>
+</head>
+<body>
+
+  <!-- navbar -->
+    <nav class="navbar navbar-expand-lg ">
+        <div class="container-fluid">
+          <!-- Brand name -->
+          <a class="navbar-brand" href="#homePage">Mybikes</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a class="nav-link" aria-current="page" href="#homePage">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#Pricing">Pricing</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#Query">Query</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+
+      <!-- home -->
+      <div id="homePage" class="row">
+        <div class="home-body">
+          <h1 class="home-title">Find the right bike</h1>
+       <p class="home-text">Buy your electric bike now. All information on bike available below.</p>
+        </div>
+       
+      <img class="home-img" src="images/bg.jpg">
+
+      </div>
+
+      <!-- Cards -->
+      <div id="Pricing" class="middle-container">
+       <div class="row">
+        <div class="col-lg-6">
+          <div class="card" style="width: 30rem;">
+            <img class="card-img-top" src="images/electric-bike 1.jpg" alt="Card image cap">
+            <div class="card-body">
+              <hr class="card-divider">
+              <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor aliqua.</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-6">
+          <div class="card" style="width: 30rem;">
+            <img class="card-img-top" src="images/bike2.png" alt="Card image cap">
+            <div class="card-body">
+              <hr class="card-divider">
+              <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor aliqua.</p>
+            </div>
+          </div>
+        </div>
+       </div>
+
+       <div class="row">
+        <div class="col-lg-6">
+          <div class="card" style="width: 30rem;">
+            <img class="card-img-top" src="images/bike 3.jpg" alt="Card image cap">
+            <div class="card-body">
+              <hr class="card-divider">
+              <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor aliqua.</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-6">
+          <div class="card" style="width: 30rem;">
+            <img class="card-img-top" src="images/bike4.jpg" alt="Card image cap">
+            <div class="card-body">
+              <hr class="card-divider">
+              <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor aliqua.</p>
+            </div>
+          </div>
+        </div>
+       </div>
+      </div>
+
+      <!-- form -->
+      <form id="Query" action="result.html">
+        <div class="form-row">
+          <div class="col-lg-6">
+            <label for="fname">First name</label>
+            <input type="text" class="form-control" id="fname" placeholder="First name" required>
+          </div>
+          <div class="col-lg-6">
+            <label for="lname">Last name</label>
+            <input type="text" class="form-control" id="lname" placeholder="Last name" required>
+          </div>
+        </div>
+        <div class="form-row">
+          <div class="col-lg-4">
+            <label for="city">City</label>
+            <input type="text" class="form-control" id="city" placeholder="City" required>
+          </div>
+          <div class="col-lg-4">
+            <label for="state">State</label>
+            <input type="text" class="form-control" id="state" placeholder="State" required>
+          </div>
+          <div class="col-lg-4">
+            <label for="phone">Phone no.</label>
+            <input type="tel" class="form-control" id="phone" placeholder="Phone no." required>
+          </div>
+        </div>
+        <div class="form-group">
+          <label for="question">Your Query</label>
+          <textarea class="form-control" id="question" rows="3"></textarea>
+        </div>
+        <button class="btn btn-light" type="submit">Submit form</button>
+      </form>
+
+
+      <div class="footer">
+        <p>Made by Sanskriti Chauhan</p>
+        <small>Email: @sanskritichauhan1712</small>
+      </div>
+
+      <!-- JavaScript Bootstrap-->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
+
+</body>
+</html>
